@@ -1,43 +1,124 @@
+/*stylesheet for page*/
+
+* {
+	/*font-family: Verdana, Geneva, sans-serif;*/
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';		
+}
+
 body {
-    margin: 60px auto;
-    width: 70%;
+	background-color: #e5e5e5;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+#lsb {
+	position: fixed;
+	height:100%;
+	width: 250px;
+	border: 2px solid red;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #032149;
+	color: #e5e5e5;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+#lsb h3 {
+	text-align: center;
+	color: #e5e5e5;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+.main{
+	position: relative;
+	margin-left: 250px;
+	padding: 50px;
+	border: 2px solid blue;
+	height: 100%;
+	background-color: #e5e5e5;
 }
-a:hover {
-    text-decoration: underline;
+
+#foot {
+	position: absolute;
+	margin-left: 250px;
+	height: 40px;
+	clear: both;
+	border: 2px solid black;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+#avatar {
+	display: block;
+	width: 100px;
+	border-radius: 10%;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+
+#name {
+	text-align: center;
+	line-height: 1.2em;
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-weight: normal;
+	font-size:1.2em;
+	padding-top: 20px;
+	text-transform: capitalize;
+}
+
+#uni {
+	text-align: center;
+	font: 15px Tahoma, Helvetica, Arial, Sans-Serif;
+	/*color: #222;
+	text-shadow: 0px 2px 3px #555;*/
+	line-height: 0.8em;
+}
+
+#lsb ul, #foot ul {
+	list-style: none;
+}
+
+#lsb ul li {
+	display: block;
+	text-align: right;
+	padding: 10px;
+	background-color: #032149;	
+}
+
+#lsb ul li:hover {
+	background-color: #838996;
+}
+
+#lsb ul li a {
+	text-decoration: none;
+	padding: 10px;
+	border-left: 1px solid black;
+	color:#979aaa; 
+}
+
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	display: block-inline;
+	position: absolute;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.main h1 {
+	position: absolute;
+	bottom: 450px;
+	left: 550px;
 }
 
-ul.posts li {
-    list-style: none;
+p.top {
+	top: 100px;
+	left: 600px;
+}
+
+p.bottom {
+	top: 200px;
+	left: 600px;
+}
+
+.main img {
+	width:400px;
+	display: inline-block;
+	position: absoulte;
+	left: 200px;
+	top: 50px;
+
+	
 }
