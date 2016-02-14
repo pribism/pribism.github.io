@@ -94,7 +94,6 @@ p {
 	font-size: 1.2em;
 	line-height: 1.2em;
 	display: block-inline;
-	position: absolute;
 }
 
 .main h1 {
@@ -104,11 +103,13 @@ p {
 }
 
 p.top {
+	position: absolute;
 	top: 100px;
 	left: 600px;
 }
 
 p.bottom {
+	position: absolute;
 	top: 200px;
 	left: 600px;
 }
