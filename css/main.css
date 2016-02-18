@@ -96,9 +96,9 @@ p {
 	display: block-inline;
 }
 
-.main div {
+.main #indexm {
 	position: absolute;
-	bottom: 450px;
+	bottom: 200px;
 	left: 550px;
 }
 
@@ -111,4 +111,8 @@ p {
 	top: 50px;
 
 	
+}
+
+#foot a {
+	margin: 30px;	
 }
