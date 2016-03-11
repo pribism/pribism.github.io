@@ -67,7 +67,6 @@ body {
 	/*color: #222;
 	text-shadow: 0px 2px 3px #555;*/
 	line-height: 0.8em;
-	padding: 10px;
 }
 
 #lsb ul, #foot ul {
@@ -77,19 +76,18 @@ body {
 #lsb ul li {
 	display: block;
 	text-align: center;
-	padding: 10px 10px 10px -40px;
+	padding: 10px;
 	background-color: #032149;	
 }
 
 #lsb ul li:hover {
 	background-color: #838996;
-	color: #032149;
 }
 
 #lsb ul li a {
 	text-decoration: none;
 	padding: 10px;
-	/*border-left: 1px solid black;*/
+	border-left: 1px solid black;
 	color:#979aaa; 
 }
 
@@ -117,9 +115,6 @@ p {
 }
 
 #foot a {
-	display: inline;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
-	margin-bottom: 30px;	
+	margin: 30px;
+	text-align: center;	
 }
