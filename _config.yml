@@ -1,2 +1,4 @@
 name: Matej Pribis, personal webpage
 markdown: kramdown
+
+theme: jekyll-theme-dinky
