@@ -1,4 +1,4 @@
 name: Matej Pribis, personal webpage
 markdown: kramdown
 
-theme: jekyll-theme-minimal
+remote_theme: the-development/flex
