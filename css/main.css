@@ -113,6 +113,39 @@ a:hover {
   text-align: center;
 }
 
+
+/*****************************************************************************/
+/*
+/* Menu 
+/*
+/*****************************************************************************/
+
+.menu {
+  border-top: 1px solid #e7e7e7;
+  margin-top: 5em;
+  padding-top: 1.5em;
+  padding-bottom: 0.0em;
+}
+
+
+.menu-list {
+  list-style-type: none;
+}
+
+.menu-list li {
+  text-align: center;
+  line-height: 1.75em;
+}
+
+.menu-link {
+  margin-bottom: 0.75em;
+}
+
+.menu-title {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
@@ -272,37 +305,6 @@ a:hover {
   opacity: 0.7;
 }
 
-/*****************************************************************************/
-/*
-/* Menu 
-/*
-/*****************************************************************************/
-
-.menu {
-  border-top: 1px solid #e7e7e7;
-  margin-top: 1em;
-  padding-top: 1.5em;
-  padding-bottom: 0.0em;
-}
-
-
-.menu-list {
-  list-style-type: none;
-}
-
-.menu-list li {
-  text-align: center;
-  line-height: 1.75em;
-}
-
-.menu-link {
-  margin-bottom: 0.75em;
-}
-
-.menu-title {
-  font-weight: 600;
-  font-size: 1.5em;
-}
 
 /*****************************************************************************/
 /*
