@@ -1,2 +1,10 @@
-name: Flex
-pygments: true
+name: Matej Pribis - neuroscience and psychiatry
+highlighter: rouge
+
+email: matejpribis@gmail.com
+description: >-
+  The site about the joined worlds of neuroscience and psychiatry.
+baseurl: "/"
+url: "pribism.github.io"
+
+
