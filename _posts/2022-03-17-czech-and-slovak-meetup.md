@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Popularisation talk at former grammar school"
+title: "Czech and Slovak expat meetup Zürich"
 date: 2022-03-17
 ---
 
